@@ -1,3 +1,4 @@
+```{r}
 library(ggplot2)
 library(tibble)
 
@@ -38,7 +39,8 @@ polar_art <- function(seed, n, palette) {
 }
 
 polar_art(
-  seed = 2, 
-  n = 50, 
-  palette = c("red", "black", "white")
+  seed = 5, 
+  n = 20, 
+  palette = c("green", "blue", "white")
 )
+```
